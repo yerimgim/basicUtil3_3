@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <CarouselSlider />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import CarouselSlider from "./components/CarouselSlider.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    CarouselSlider,
   },
 };
 </script>
